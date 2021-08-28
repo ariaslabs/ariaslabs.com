@@ -1,5 +1,4 @@
 import React from 'react'
-import Scrollspy from 'react-scrollspy'
 
 export default function Navbar() {
 
@@ -9,7 +8,7 @@ export default function Navbar() {
   return (
     <nav id="navbar-nav" className="navbar fixed-top navbar-expand-sm navbar-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" onClick={scrollToTop}>ARIASLABS</a>
+        <a className="navbar-brand" onClick={scrollToTop} href="#welcome">ARIASLABS</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

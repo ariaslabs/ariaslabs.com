@@ -1,5 +1,4 @@
 import React from 'react'
-import githubIcon from '../assets/images/GitHub-Mark-Light-32px.png'
 
 export default function Project({projectData}) {
   return (
@@ -15,12 +14,12 @@ export default function Project({projectData}) {
           </ul>
           {projectData.url === "" && projectData.github_url === "" ? <small>Source Code Not Available.</small> : null}
           {
-            projectData.url != "" ? 
+            projectData.url !== "" ? 
             <a href={projectData.url}>{projectData.name}</a> : null
           }
           <br />
           {
-            projectData.github_url != "" ?
+            projectData.github_url !== "" ?
             <a href={projectData.github_url}>Source Code</a> : null
           }
         </div>
