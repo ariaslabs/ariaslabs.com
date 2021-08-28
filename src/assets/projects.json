@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bitwatcher",
+    "company": "",
+    "techs": ["Vue", "Firebase", "Coingecko.com API"],
+    "description": "Bitwatcher is a service that provides crypto currency market data.",
+    "url": "https://www.bitwatcher.app",
+    "github_url": "https://github.com/ariaslabs/bitwatcher",
+    "website_img": "",
+    "mobile": ""
+  },
+  {
+    "name": "Sun & Rain",
+    "company": "",
+    "techs": ["Vue", "Express.js", "MongoDB"],
+    "description": "Sun & Rain is a simple weather application.",
+    "url": "https://www.sunandrain.net",
+    "github_url": "https://github.com/ariaslabs/sunandrain.net",
+    "website_img": "",
+    "mobile": ""
+  },
+  {
+    "name": "CODS Chime Assistant",
+    "company": "Amazon",
+    "techs": ["Vue", "Express.js", "CouchDB", "MySQL", "Socket.io", "Puppeteer.js"],
+    "description": "",
+    "url": "",
+    "github_url": "",
+    "website_img": "",
+    "mobile": ""
+  }
+]
