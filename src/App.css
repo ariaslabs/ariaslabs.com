@@ -55,13 +55,14 @@
 
 #about {
   height: 100vh !important;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .about-main {
-  width: 80%;
+  width: 450px;
   margin: auto;
 }
 
@@ -91,6 +92,8 @@
 
 #projects {
   height: 100vh !important;
+  width: 500px;
+  margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
