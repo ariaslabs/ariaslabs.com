@@ -21,7 +21,7 @@ function App() {
               <small className="title"> - Full-Stack Developer</small>
             </div>
             <p className="description">
-              I'm Christohper, I make cool apps and want to work with you and your buiness. 
+              I'm Christohper, I make cool apps and want to work with you and your business. 
             </p>
           </div>
         </section>
